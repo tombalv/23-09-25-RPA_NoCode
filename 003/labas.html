@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brieduko Sapnas</title>
+</head>
+
+<body>
+
+    <table border="30">
+        <tr>
+            <td>
+                <h2 contenteditable="true" id="sk1"></h2>
+            </td>
+            <td>
+                <h2 contenteditable="true" id="sk2"></h2>
+            </td>
+            <td>
+                <h2 id="result"></h2>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Centras</h2>
+            </td>
+            <td>
+                <h2>Centras</h2>
+            </td>
+            <td>
+                <h2>Centras</h2>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <h2>Labas 2</h2>
+            </td>
+            <td>
+                <h2>Hello</h2>
+            </td>
+        </tr>
+    </table>
+
+    <a href="naujas.html">Eiti pas Naują</a>
+    <h1><a href="https://www.google.com/">GOOGLE</a></h1>
+    <img src="pa.jpg" />
+
+    <script>
+        const counter = _ => {
+            const sk1 = document.querySelector('#sk1').innerHTML;
+            const sk2 = document.querySelector('#sk2').innerHTML;
+            const sum = parseFloat(sk1) + parseFloat(sk2);
+            document.querySelector('#result').innerHTML = sum;
+        }
+        document.querySelector('#sk1').addEventListener('input', counter);
+        document.querySelector('#sk2').addEventListener('input', counter);
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

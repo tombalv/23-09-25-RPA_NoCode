@@ -1,0 +1,49 @@
+h1 {
+    color: crimson;
+    font-size: 130px;
+    font-weight: normal;
+    /* font-style: italic; */
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    letter-spacing: 14px;
+    text-transform: uppercase;
+    margin: 100px;
+
+}
+
+h1 span {
+        /* box */
+        border: 2px solid crimson;
+        
+        border-radius: 30px;
+        padding: 40px;
+
+        background-color: lightcyan;
+}
+
+p {
+    color: gray;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+p span {
+    color: crimson;
+}
+
+p span:hover {
+    color: skyblue;
+}
+
+div {
+    margin: 100px;
+}
+
+div img {
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}

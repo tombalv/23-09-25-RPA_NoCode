@@ -1,0 +1,110 @@
+/* Pagrindinis html */
+h1 {
+    color: rgb(103, 175, 103);
+    font-size: 20px;
+   font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+div h3 {
+    text-transform: uppercase;
+}
+
+ a {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+div ol {
+    color: grey;
+    font-weight: bold;
+}
+tr {
+    background-color: rgb(85, 177, 207);
+}
+
+td {
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+
+/* Senis ir Jura, Pinokis */
+div img {
+    width: 250px;
+    border: 1px solid black;
+}
+body img {
+    width: 300px;
+    border: 1px solid black;
+    height: 250px;
+}
+
+/* Zvaigzdziu Karai */
+
+div h3 {
+    color: green;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding-left: 50px;
+}
+div ul {
+    padding-top: 0;
+    
+}
+
+li div {
+    background-color: orange;
+    height: 40px;
+    width:fit-content;
+}
+li div p {
+    padding: 13px 15px;
+    color: white;
+    font-size: 10px;
+}
+
+ul li::marker {
+    font-size: 35px;
+    color: orange;
+}
+div p a {
+    color: green;
+}
+
+
+
+/* p {
+    color: gray;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+} */
+
+/* p span {
+    color: crimson;
+}
+
+p span:hover {
+    color: skyblue;
+}
+
+
+
+div img {
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+} */
